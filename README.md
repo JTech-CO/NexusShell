@@ -2,8 +2,6 @@
 
 > **Terminal-styled YouTube & SoundCloud downloader — paste a link, get the file on your device.**
 
-<img src="https://raw.githubusercontent.com/JTech-CO/Nexusshell/refs/heads/main/images/1-Download.png" width="100%"> 
-
 **▶ Live service: [https://nexusshell.kr](https://nexusshell.kr)**
 
 NexusShell strips away the ads and clutter of typical web downloaders and replaces them with a clean, keyboard-friendly terminal-style interface. Paste a YouTube or SoundCloud link, pick a format, and the file is delivered straight to your device.
@@ -16,19 +14,31 @@ NexusShell strips away the ads and clutter of typical web downloaders and replac
 
 - **YouTube + SoundCloud** — download from both platforms via a host allow-list.
 - **Video or audio** — grab a YouTube video as MP4 or pull the audio; save SoundCloud tracks.
-- **Playlists & sets** — queue a whole YouTube playlist or SoundCloud set; files are numbered in order.
+- **Every quality, one obvious default** — all available resolutions are listed (360p through 4K, with codec and file-size variants under each). 1080p is marked **Recommended** and shown first, so you get the best size-to-quality trade-off in one click — or pick 4K if that's what you came for.
+- **Playlists & sets as a single ZIP** — queue a whole YouTube playlist or SoundCloud set and get **one archive named after the playlist**, tracks numbered in order. No clicking through a list of links.
 - **Live progress** — real-time download progress over WebSocket.
 - **Delivered to your device** — the server fetches the media, streams it to your browser, then **auto-deletes its own copy** a short time later. Nothing lingers on the host.
-- **No ads, no accounts, no telemetry.**
+- **Private by design** — your queue and history are visible only to your own browser session; visitor counts are kept as one-way hashes, never raw IP addresses.
+- **Works on phone and tablet** — the terminal layout adapts to small screens with proper touch targets.
+- **Kept current** — actively maintained to keep pace with platform changes so downloads keep working.
+- **No ads, no accounts, no telemetry, no "free tier" throttling.**
 
 ## How it works
 
 1. Paste a YouTube or SoundCloud URL.
 2. NexusShell analyzes it and lists the available formats (or detects a playlist/set).
-3. Pick a format and start the download.
-4. When it finishes, your browser saves the file to your device automatically (playlists provide a per-file link list).
+3. Take the **Recommended** quality or open any tier for its codec and size variants.
+4. When it finishes, your browser saves the file to your device automatically (a whole playlist arrives as one ZIP archive named after the playlist).
 
-<img src="https://raw.githubusercontent.com/JTech-CO/Nexusshell/refs/heads/main/images/2-Queue.png" width="100%"> 
+## Screenshots
+
+**Download** — every available quality, with the recommended pick surfaced first:
+
+![NexusShell download tab showing quality tiers with the recommended option first](images/1-Download.png)
+
+**Queue** — live progress, and finished files ready to save:
+
+![NexusShell queue tab showing download progress and completed items](images/2-Queue.png)
 
 ## Built with
 
