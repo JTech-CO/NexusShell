@@ -20,8 +20,9 @@ NexusShell strips away the ads and clutter of typical web downloaders and replac
 - **Delivered to your device** — the server fetches the media, streams it to your browser, then **auto-deletes its own copy** a short time later. Nothing lingers on the host.
 - **Private by design** — your queue and history are visible only to your own browser session; visitor counts are kept as one-way hashes, never raw IP addresses.
 - **Works on phone and tablet** — the terminal layout adapts to small screens with proper touch targets.
-- **Kept current** — actively maintained to keep pace with platform changes so downloads keep working.
-- **No ads, no accounts, no telemetry, no "free tier" throttling.**
+- **Full speed, no waiting** — no queues, countdowns, or "free tier" limits; a download runs as fast as the source allows.
+- **Kept working** — platforms change how they serve media constantly. NexusShell detects when a route stops working and switches to one that does, so downloads keep going instead of breaking for days.
+- **No ads, no accounts, no telemetry.**
 
 ## How it works
 
