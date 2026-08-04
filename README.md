@@ -35,11 +35,11 @@ NexusShell strips away the ads and clutter of typical web downloaders and replac
 
 **Download** — every available quality, with the recommended pick surfaced first:
 
-![NexusShell download tab showing quality tiers with the recommended option first](images/1-Download.png)
+<img src="https://raw.githubusercontent.com/JTech-CO/NexusShell/refs/heads/main/images/1-Download.png" width="95%" alt="이미지 설명">
 
 **Queue** — live progress, and finished files ready to save:
 
-![NexusShell queue tab showing download progress and completed items](images/2-Queue.png)
+<img src="https://raw.githubusercontent.com/JTech-CO/NexusShell/refs/heads/main/images/2-Queue.png" width="95%" alt="이미지 설명">
 
 ## Built with
 
