@@ -21,7 +21,7 @@ NexusShell replaces the ads and clutter of typical web downloaders with a clean,
 - **Private by design**: your queue and history are visible only to your own browser session. Visitor counts are stored as one-way hashes, never raw IP addresses.
 - **Works on phone and tablet**: the layout adapts to small screens with real touch targets.
 - **Full speed**: no queues, countdowns, or "free tier" limits.
-- **Kept working**: platforms keep changing how they serve media. NexusShell switches to a working route automatically instead of breaking for days.
+- **Kept working**: platforms keep changing how they serve media. NexusShell switches to a working route automatically, and the live service is checked around the clock, so a real outage is caught in minutes rather than days.
 - **No ads, no accounts, no telemetry.**
 
 ## How it works
